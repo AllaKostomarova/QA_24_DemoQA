@@ -45,6 +45,7 @@ public class CssLocators {
         System.out.println("size -->"+btnList.size());
         for (WebElement el: btnList){
             System.out.println("text --> "+el.getText());
+
         }
 
         driver.quit();
