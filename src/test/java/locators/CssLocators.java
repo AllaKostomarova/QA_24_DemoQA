@@ -47,12 +47,6 @@ public class CssLocators {
             System.out.println("text --> "+el.getText());
         }
 
-//        WebElement btnRightClickMe = driver.findElement(By.cssSelector("div[class='col-12 mt-4 col-md-6'] div[class='mt-4']"));
-//        System.out.println("-->"+btnRightClickMe.getText());
-
-
-
-
         driver.quit();
     }
 
