@@ -45,8 +45,9 @@ public class CssLocators {
         System.out.println("size -->"+btnList.size());
         for (WebElement el: btnList){
             System.out.println("text --> "+el.getText());
-
         }
+        WebElement span = driver.findElement(By.cssSelector("ul.menu-list>#item-3>span"));
+        System.out.println("-->"+span.getText());
 
         driver.quit();
     }
