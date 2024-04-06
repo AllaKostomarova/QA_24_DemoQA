@@ -50,7 +50,6 @@ public class StudentFormTests extends TestBase implements HelperStudent {
         softAssert.assertTrue(isElementPresent_titleSubmitForm());
         softAssert.assertTrue(isEmailFromFormEqualsTo(student.getEmail()));
         softAssert.assertTrue(isMobileFromFormEqualsTo(student.getMobile()));
-        
     }
 
     @Test
