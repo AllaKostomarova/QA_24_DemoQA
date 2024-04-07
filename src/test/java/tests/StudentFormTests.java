@@ -30,6 +30,10 @@ public class StudentFormTests extends TestBase implements HelperStudent {
         }
     }
 
+    /**
+     * Positive method validate student form
+     * object student creates with lombok
+     */
     @Test
     public void studentFormPositiveTest(){
         StudentDTO student = StudentDTO.builder()
@@ -52,6 +56,10 @@ public class StudentFormTests extends TestBase implements HelperStudent {
         softAssert.assertTrue(isMobileFromFormEqualsTo(student.getMobile()));
     }
 
+    /**
+     * Negative method validate student form
+     * object student creates with lombok
+     */
     @Test
     public void studentFormNegativeTest_WrongLastNameEmpty(){
         StudentDTO student = StudentDTO.builder()
